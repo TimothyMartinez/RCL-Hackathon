@@ -1,0 +1,31 @@
+
+<%= form_with model: @users do |f| %>
+  <div class="field">
+    <%= f.label :first %><br />
+    <%= f.text_field :first, autocomplete: "First" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :second %><br />
+    <%= f.text_field :second, autocomplete: "First" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :third %><br />
+    <%= f.text_field :third, autocomplete: "Third" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :fourth %><br />
+    <%= f.text_field :fourth, autocomplete: "fourth" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :fifth %><br />
+    <%= f.text_field :fifth, autocomplete: "fifth" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>
