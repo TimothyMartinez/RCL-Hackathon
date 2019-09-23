@@ -1,4 +1,4 @@
-#edit_pass {
+#edit_pass_wrapper {
   font-family: 'Montserrat', sans-serif;
   background-image: url(http://static.traveltek.net/uploaded/2016/12/1481555532.png);
   background-size: 68% 23%;
@@ -30,12 +30,13 @@ body {
   right: 0;
 }
 
-#edit_pass #heading {
+#edit_pass_wrapper .heading {
   text-align: center;
   padding-top: 20px;
+  text-transform: uppercase;
 }
 
-#edit_pass .actions input {
+#edit_pass_wrapper .actions input {
   border: none;
   color: white;
   background-color: #71C5E8;
@@ -47,19 +48,19 @@ body {
   font-size: 16px;
 }
 
-#edit_pass input {
+#edit_pass_wrapper input {
   color: #fff;
   border-radius: 4px;
   outline: none;
   border: 1px solid #fff;
 }
 
-#edit_pass .inp_label {
+#edit_pass_wrapper .inp_label {
   font-size: 10px;
   padding: 15px 0 15px 0;
 }
 
-#edit_pass .field {
+#edit_pass_wrapper .field {
   padding: 10px 0 10px 0;
 }
 

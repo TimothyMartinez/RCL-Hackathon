@@ -30,9 +30,10 @@
   right: 0;
 }
 
-#sign_up_wrapper #heading {
+#sign_up_wrapper .heading {
   text-align: center;
   padding-top: 20px;
+  text-transform: uppercase;
 }
 
 #sign_up_wrapper .actions input {
